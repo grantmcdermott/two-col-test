@@ -1,7 +1,7 @@
 %% See: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column-layout.html
 \newenvironment{columns}[1][]{}{}
 %%
-\newenvironment{column}[1]{\begin{minipage}{#1}\ignorespaces}{%
+\newenvironment{column}[1]{\begin{minipage}[t]{#1}\ignorespaces}{%
 \end{minipage}
 \ifhmode\unskip\fi
 \aftergroup\useignorespacesandallpars}
