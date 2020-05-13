@@ -1,10 +1,2 @@
-.column-left{
-  float: left;
-  width: 49%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 49%;
-  text-align: left;
-}
+/*  See: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column-layout.html */
+.columns {display: flex; }
